@@ -453,6 +453,12 @@
 
       font-weight: 700;
     }
+    .soon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
 
     .rsvp-button {
   display: inline-block;
@@ -538,6 +544,9 @@
       .hero h1 {
         letter-spacing: -1px;
       }
+      .soon-grid {
+  grid-template-columns: 1fr;
+}
 
     }
 
@@ -984,39 +993,16 @@
 </section>
     
 
-    <!-- ================================
-     RSVP
-     ================================ -->
-
-<section class="panel rsvp-section" id="rsvp">
-
-  <h2>Ready to Join Us?</h2>
-
-  <p>
-    Come to one, come to two, or come to all three!
-    Let me know which open house(es) you're planning to attend.
-  </p>
-
-  <p>
-    All three events will be held near
-    <strong>44th Street &amp; Osborn Road in Phoenix.</strong>
-    The exact address will be sent to registered guests
-    approximately 48 hours before each event.
-  </p>
-
-  <a
-    href="https://docs.google.com/forms/d/e/1FAIpQLSeFSIvCnWW0Pbf6yWtdaXpZo5V2nauWZB3BK3hPOfCVV_RnjQ/viewform?usp=publish-editor"
-    target="_blank"
-    rel="noopener"
-    class="rsvp-button"
-  >
-    Click here to RSVP →
-  </a>
-
-</section>
-
 
  <!-- ================================
+     MORE TO COME
+     ================================ -->
+
+<section class="panel coming-soon" id="more-to-come">
+
+  <h2>More to Come</h2>
+
+  <!-- ================================
      MORE TO COME
      ================================ -->
 
@@ -1028,16 +1014,20 @@
     We're just getting started. Check back as we add more.
   </p>
 
-  <div class="soon-box">
-    ✓ Special Guests
-    <br>
-    Coming Soon
-  </div>
+  <div class="soon-grid">
 
-  <div class="soon-box">
-    ✓ More Voting Resources
-    <br>
-    Coming Soon
+    <div class="soon-box">
+      ✓ Special Guests
+      <br>
+      Coming Soon
+    </div>
+
+    <div class="soon-box">
+      ✓ More Voting Resources
+      <br>
+      Coming Soon
+    </div>
+
   </div>
 
 </section>
@@ -1058,7 +1048,7 @@
 
     <br>
 
-    A nonpartisan community effort encouraging
+    A community effort encouraging
     informed participation and voting.
 
   </footer>
