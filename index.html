@@ -478,6 +478,75 @@
   margin-top: 20px;
 }
 
+    /* ================================
+       CANDIDATE & OFFICE ACCORDION
+       ================================ */
+
+    .candidate-info {
+      text-align: center;
+    }
+
+    .candidate-accordion {
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    .candidate-detail {
+      background: #faf7ee;
+      border-radius: 18px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+
+    .candidate-detail summary {
+      cursor: pointer;
+      padding: 22px 24px;
+      font-size: 1.08rem;
+      list-style: none;
+    }
+
+    .candidate-detail summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .candidate-detail summary span {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .candidate-detail summary strong {
+      font-size: 1.15rem;
+    }
+
+    .candidate-detail summary small {
+      font-size: 0.9rem;
+      font-weight: 600;
+      opacity: 0.72;
+    }
+
+    .candidate-detail summary::after {
+      content: "＋";
+      float: right;
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin-top: -38px;
+    }
+
+    .candidate-detail[open] summary::after {
+      content: "−";
+    }
+
+    .candidate-detail[open] summary {
+      border-bottom: 1px solid rgba(0,0,0,0.10);
+    }
+
+    .candidate-content {
+      padding: 24px;
+      line-height: 1.65;
+    }
+   
+
     .rsvp-button {
   display: inline-block;
   margin-top: 18px;
@@ -1040,34 +1109,196 @@
 </section>
     
 
-
-  <!-- ================================
-     MORE TO COME
+<!-- ================================
+     CANDIDATES & OFFICES
      ================================ -->
 
-<section class="panel coming-soon" id="more-to-come">
+<section class="panel candidate-info" id="candidates">
 
-  <h2>More to Come</h2>
+  <h2>Meet the Candidates & Know the Offices</h2>
 
   <p>
-    We're just getting started. Check back as we add more.
+    Learn more about the offices on your ballot and the candidates
+    scheduled to join us at our open houses.
   </p>
 
-  <div class="soon-grid">
+  <div class="candidate-accordion">
 
-    <div class="soon-box">
-      ✓ Special Guests
-      <br>
-      Coming Soon
-    </div>
+    <!-- SUPERINTENDENT -->
+    <details class="candidate-detail">
+      <summary>
+        <span>
+          <strong>Superintendent of Public Instruction</strong>
+          <small>
+            Terry Leyba Ruiz · Sunday, October 11 · 11 AM – Noon
+          </small>
+        </span>
+      </summary>
 
-    <div class="soon-box">
-      ✓ More Voting Resources
-      <br>
-      Coming Soon
-    </div>
+      <div class="candidate-content">
+      
+  <h4>About the Office</h4>
+
+  <p>
+    The Superintendent of Public Instruction is a
+    <strong>statewide elected office</strong> that leads the
+    Arizona Department of Education. The superintendent oversees
+    the department, carries out State Board of Education policies,
+    distributes state education funds, and has responsibilities
+    related to Arizona's public-school system.
+  </p>
+
+  <h4>Scheduled Guest: Dr. Terry Leyba Ruiz</h4>
+
+  <p>
+    <strong>Democratic candidate for Superintendent of Public Instruction</strong>
+  </p>
+
+  <p>
+    Dr. Ruiz is a third-generation Arizonan and longtime educator
+    with 35 years of experience. She is a former math teacher and
+    former president of Glendale Community College.
+  </p>
+
+  <p>
+    <strong>Sunday, October 11 · 11 AM – Noon</strong>
+  </p>
+
+</div>
+      
+    </details>
+
+
+    <!-- STATE TREASURER -->
+    <details class="candidate-detail">
+      <summary>
+        <span>
+          <strong>Arizona State Treasurer</strong>
+          <small>
+            Nick Mansour · Saturday, October 17 · 1 – 2 PM
+          </small>
+        </span>
+      </summary>
+
+      <div class="candidate-content">
+
+  <h4>About the Office</h4>
+
+  <p>
+    The Arizona State Treasurer is a
+    <strong>statewide elected office</strong> responsible for
+    banking and investment management for the state. The Treasurer
+    manages and invests public funds, oversees state cash flow,
+    provides investment services to local governments, and manages
+    Arizona's Permanent Land Endowment.
+  </p>
+
+  <h4>Scheduled Guest: Nick Mansour</h4>
+
+  <p>
+    <strong>Democratic candidate for Arizona State Treasurer</strong>
+  </p>
+
+  <p>
+    Mansour is a third-generation Arizonan, entrepreneur, and
+    business leader. He previously served as Chairman and CEO of
+    Arizona College of Nursing and holds degrees in industrial
+    engineering and business.
+  </p>
+
+  <p>
+    <strong>Saturday, October 17 · 1 – 2 PM</strong>
+  </p>
+
+</div>
+    </details>
+
+
+    <!-- CORPORATION COMMISSION -->
+    <details class="candidate-detail">
+      <summary>
+        <span>
+          <strong>Arizona Corporation Commission</strong>
+          <small>
+            Clara Pratte &amp; Jonathon Hill · Saturday, October 17 · 2 – 3 PM
+          </small>
+        </span>
+      </summary>
+
+      <div class="candidate-content">
+
+  <h4>About the Office</h4>
+
+  <p>
+    The Arizona Corporation Commission is made up of
+    <strong>five commissioners elected statewide</strong>.
+    The Commission regulates many public utilities, including
+    decisions about rates and service. It also oversees securities,
+    business registrations, and railroad and pipeline safety.
+  </p>
+
+  <h4>Scheduled Guests: Clara Pratte &amp; Jonathon Hill</h4>
+
+  <p>
+    <strong>Democratic candidates for Arizona Corporation Commission</strong>
+  </p>
+
+  <p>
+    Clara Pratte has a background in public service,
+    entrepreneurship, and tribal policy and is a co-founder of
+    Navajo Power.
+  </p>
+
+  <p>
+    Jonathon Hill is an engineer and scientist who has worked at
+    Arizona State University on NASA space missions. He holds
+    degrees in aerospace engineering and geological sciences.
+  </p>
+
+  <p>
+    <strong>Saturday, October 17 · 2 – 3 PM</strong>
+  </p>
+
+</div>
+    </details>
 
   </div>
+
+ <div class="soon-grid voting-resources">
+
+  <div class="soon-box">
+    <strong>✓ Understand the Ballot Measures</strong>
+
+    <p>
+      Arizona Clean Elections provides easy-to-read information
+      about propositions on your ballot, including plain-language
+      summaries and links to the official measures.
+    </p>
+
+    <a href="https://www.azcleanelections.gov/arizona-elections/propositions"
+       target="_blank"
+       rel="noopener noreferrer">
+      Explore Arizona Propositions →
+    </a>
+  </div>
+
+  <div class="soon-box">
+    <strong>✓ Official 2026 Ballot Information</strong>
+
+    <p>
+      Want to dig deeper? The Arizona Secretary of State provides
+      the official ballot measure language and the 2026 Publicity
+      Pamphlet.
+    </p>
+
+    <a href="https://azsos.gov/elections/ballot-measures"
+       target="_blank"
+       rel="noopener noreferrer">
+      View Official Ballot Measures →
+    </a>
+  </div>
+
+</div>
 
 </section>
 
