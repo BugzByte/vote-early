@@ -637,6 +637,57 @@
 
     }
 
+
+/* COMPLETED EVENT - SUNDAY */
+
+.event-card.event-completed {
+  background: #eff3ee;
+  border-top-color: #88a58e;
+}
+
+.event-complete-label {
+  display: inline-block;
+  margin: 18px 0 6px;
+  padding: 8px 15px;
+  background: #dcebdd;
+  color: #356b4a;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.event-completed .event-thank-you {
+  margin-top: 28px;
+  padding: 24px;
+  background: #e1eee3;
+  border-radius: 18px;
+  color: #293b33;
+}
+
+.event-completed .event-thank-you h4 {
+  margin: 0 0 14px;
+  font-size: 1.2rem;
+  color: #356b4a;
+}
+
+.event-completed .event-thank-you p {
+  margin: 0 0 12px;
+  line-height: 1.6;
+}
+
+.event-completed .event-thank-you p:last-child {
+  margin-bottom: 0;
+}
+
+.event-completed .drop-in {
+  color: #467653;
+}
+
+  
+  
+  
+  
   </style>
 </head>
 
@@ -738,54 +789,74 @@
     >
 
 
-      <!-- SUNDAY -->
+ 
+<!-- SUNDAY - COMPLETED EVENT -->
 
-      <article class="event-card brunch">
+<article class="event-card brunch event-completed">
 
-        <div>
+  <div>
 
-          <div class="event-label">
-            Sunday Brunch
-          </div>
+    <div class="event-label">
+      Sunday Brunch
+    </div>
 
-          <div class="event-icon">
-            🥂
-          </div>
+    <div class="event-complete-label">
+      ✓ EVENT COMPLETE
+    </div>
 
-          <h3>
-            Mimosas,<br>
-            Brunch & Ballots
-          </h3>
+    <div class="event-icon">
+      🥂
+    </div>
 
-          <div class="event-date">
-            Sunday, October 11
-          </div>
+    <h3>
+      Mimosas,<br>
+      Brunch & Ballots
+    </h3>
 
-          <div class="event-time">
-            10 AM – Noon
-          </div>
+    <div class="event-date">
+      Sunday, October 11
+    </div>
 
-          <div class="event-description">
-            Start your Sunday with mimosas,
-            easy brunch bites, good company and
-            conversation.
-          </div>
-          
-  <div class="candidate-appearance">
+    <div class="event-time">
+      10 AM – Noon
+    </div>
+
+    <div class="event-description">
+      Start your Sunday with mimosas,
+      easy brunch bites, good company and
+      conversation.
+    </div>
+
+    <div class="candidate-appearance">
       <strong>Scheduled Guest</strong><br>
       Terry Leyba Ruiz<br>
       Candidate for Arizona Superintendent of Public Instruction<br>
       <strong>11 AM – Noon</strong>
     </div>
-          
 
-        </div>
+    <div class="event-thank-you">
+      <h4>♥ What a Wonderful Morning!</h4>
 
-        <div class="drop-in">
-          OPEN HOUSE · DROP IN ANYTIME
-        </div>
+      <p>
+        Thank you to everyone who joined us for
+        brunch, conversation, and community!
+      </p>
 
-      </article>
+      <p>
+        A special thank-you to
+        <strong>Dr. Terry Leyba Ruiz</strong>
+        for spending time with us and sharing
+        her insights.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="drop-in">
+    THANK YOU FOR JOINING US!
+  </div>
+
+</article>
 
 
 
@@ -970,13 +1041,6 @@
   <h3>Important 2026 General Election Dates</h3>
 
   <ul>
-
-    <li>
-      <strong>October 5</strong> —
-      Voter registration deadline
-      <span class="date-note">11:59 PM</span>
-    </li>
-
     <li>
       <strong>October 7</strong> —
       Early voting begins & early ballots are mailed
@@ -1008,31 +1072,51 @@
   </p>
 
 </div>
+<!-- VOTE EARLY IN PERSON -->
 
-<div class="vote-info-grid">
+<div class="vote-info-card">
+  <h3>✓ Did You Know You Can Vote Early in Person?</h3>
 
-  <!-- REGISTER / UPDATE -->
+  <p>
+    You don't have to wait until Election Day!
+    Arizona offers early in-person voting at designated locations.
+    You can receive your ballot, fill it out, and cast your vote
+    in person.
+  </p>
 
-  <div class="vote-info-card">
-    <h3>✓ Register or Update Your Registration</h3>
+  <p>
+    Enter your address to find nearby early voting locations,
+    dates, and hours.
+  </p>
 
-    <p>
-      Not registered yet? Moved recently?
-      Register to vote or update your voter information.
-    </p>
+  <p>
+    <strong>Remember:</strong> Bring an acceptable form of
+    voter identification when voting in person.
+  </p>
 
-    <p>
-      <a
-        href="https://azsos.gov/elections/voters/registering-vote"
-        target="_blank"
-        rel="noopener"
-      >
-        Register or Update →
-      </a>
-    </p>
-  </div>
+  <p>
+    <a
+      href="https://iwillvote.com/locate/?state=AZ"
+      target="_blank"
+      rel="noopener"
+    >
+      Find an Early Voting Location →
+    </a>
+  </p>
+
+  <p>
+    <a
+      href="https://elections.maricopa.gov/voting/where-to-vote.html"
+      target="_blank"
+      rel="noopener"
+    >
+      Maricopa County Voting Locations →
+    </a>
+  </p>
+</div>
 
 
+      
   <!-- CHECK REGISTRATION -->
 
   <div class="vote-info-card">
